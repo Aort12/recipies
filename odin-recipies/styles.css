@@ -1,4 +1,32 @@
+.titletext1 {
+  font-size: 70px;
+  font-style: italic;
+  text-align: center;
+  
+}
 
- div {
-   color: red;
-   } 
+.list1 {
+  color: black;
+  font-size: 50px;
+  text-align:right;
+  margin-top: 200px;
+  line-height: 2;
+  padding-right: 250px;
+  outline: none;
+  
+  
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+body {
+  background-image: url(./images/pizzast.jpg); 
+  /* Настройки первого фона */
+  background-size: cover;
+  /* Настройки второго фона */
