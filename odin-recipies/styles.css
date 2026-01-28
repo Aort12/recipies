@@ -1,32 +1,33 @@
-.titletext1 {
-  font-size: 70px;
-  font-style: italic;
-  text-align: center;
+.body {
+  margin: 0px;
+}
+/*/ Header panell /*/
+.header {
+  display: flex;
+  background-image: url(images/headertexture.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-between;
+  
+
+}
+
+.logopizza {
+  height: 60px;
+  width: 60px;
+}
+
+.nametext {
+  display: flex;
+  flex-grow: 1;
+  font-size: 30px;
+  color: tomato;
+  justify-content: center;
+  
   
 }
 
-.list1 {
-  color: black;
-  font-size: 50px;
-  text-align:right;
-  margin-top: 200px;
-  line-height: 2;
-  padding-right: 250px;
-  outline: none;
-  
-  
-}
-a {
-  text-decoration: none;
-}
 
-ul {
-  float: right;
-  list-style-type: none;
-}
 
-body {
-  background-image: url(./images/pizzast.jpg);
-  /* Настройки первого фона */
-  background-size: cover;
+.hero {
+  display: block;
 }

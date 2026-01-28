@@ -1,0 +1,35 @@
+ 
+    <links class="links">
+      <insta class="instagram">
+        <img class="instalogo" src="images/instaicon.png" alt="instagram logo">
+      </insta>
+      <fb class="facebook">
+        <img class="facebologo" src="images/facebicon.png" alt="facebook logo">
+      </fb>
+      <email class="gmail">
+        <strong>nikitapech17@gmail.com</strong>
+      </email>
+    </links>
+
+css:
+links {
+  display: flex;
+  gap: 20px;
+}
+.instalogo {
+  height: 30px;
+  width: 30px;
+  padding-top: 10px;
+}
+
+.facebologo {
+  height: 30px;
+  width: 30px;
+  padding-top: 10px;
+}
+
+.gmail {
+  color: white;
+  padding-top: 20px;
+  padding-right: 5px;
+}
