@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'pizza1';
+  src: url(./fonts/SpicyPizza.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .body {
   margin: 0px;
 }
@@ -5,29 +13,45 @@
 .header {
   display: flex;
   background-image: url(images/headertexture.jpg);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'pizza1';
   justify-content: space-between;
   
 
 }
 
 .logopizza {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
+  padding-left: 5px;
+  padding-top: 3px;
 }
 
 .nametext {
   display: flex;
   flex-grow: 1;
-  font-size: 30px;
-  color: tomato;
+  font-size: 70px;
+  color: orange;
+  text-shadow: rgb(85, 82, 82) 1px 0 10px;
   justify-content: center;
-  
-  
+  padding-top: 10px;
+  padding-left: 70px;
 }
 
+.buttons1 {
+  display: block;
+  align-content: center;
+  gap: 10px;
+  padding-right: 30px;
+}
 
-
+.signup {
+  font-size: 22px;
+  border-radius: 8px;
+}
+.reg {
+  font-size: 22px;
+  border-radius: 8px;
+ }
 .hero {
   display: block;
 }
