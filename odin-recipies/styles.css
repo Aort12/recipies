@@ -5,18 +5,15 @@
   font-style: normal;
 }
 
-
 .body {
   margin: 0px;
 }
 /*/ Header panell /*/
 .header {
   display: flex;
-  background-image: url(images/headertexture.jpg);
   font-family: 'pizza1';
-  justify-content: space-between;
-  
-
+  justify-content: center;
+  border: 10px solid gold;
 }
 
 .logopizza {
@@ -26,32 +23,158 @@
   padding-top: 3px;
 }
 
-.nametext {
-  display: flex;
+.nametitle {
+  text-align: center;
   flex-grow: 1;
   font-size: 70px;
   color: orange;
   text-shadow: rgb(85, 82, 82) 1px 0 10px;
   justify-content: center;
   padding-top: 10px;
-  padding-left: 70px;
+  
+  
 }
 
 .buttons1 {
-  display: block;
-  align-content: center;
-  gap: 10px;
-  padding-right: 30px;
+  display: flex;
+  gap: 5px;
+  padding-top: 25px;
+  padding-right: 15px;
+  flex-wrap: wrap;
+  
 }
 
 .signup {
   font-size: 22px;
+  font-family: 'pizza1';
+  color: white;
+  background: orange;
+  border: 0px;
   border-radius: 8px;
+  height: 40px;
+  width: 100px;
+  
+}
+
+.signup:hover {
+  color: rgb(0, 0, 0);
 }
 .reg {
   font-size: 22px;
+  font-family: 'pizza1';
+  color: white;
+  background: orange;
+  border: 0px;
   border-radius: 8px;
- }
+  height: 40px;
+  width: 100px;
+}
+.reg:hover {
+  color: rgb(0, 0, 0);
+}
+
+
 .hero {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/greytexture.jpg);
+  background-size: cover;
+}
+
+.navigator {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+}
+
+.navone {
   display: block;
+  
+}
+
+.pizza1 {
+  height: 400px;
+  width: 500px;
+  background-image: url(./images/pizza1.jpg);
+  background-size: cover;
+  border: 0px;
+  transition: transform 0.2s ease-in-out;
+}
+.pizza1:hover {
+  transform: scale(1.1);
+}
+.navtone {
+  font-family: 'pizza1';
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+.pizza2 {
+  height: 400px;
+  width: 500px;
+  background-image: url(./images/pizza2.jpg);
+  background-size: cover;
+  border: 0px;
+  transition: transform 0.2s ease-in-out;
+}
+.pizza2:hover {
+  transform: scale(1.1);
+}
+.navttwo {
+  font-family: 'pizza1';
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+.pizza3 {
+  height: 400px;
+  width: 500px;
+  background-image: url(./images/pizza3.jpg);
+  background-size: cover;
+  border: 0px;
+  transition: transform 0.2s ease-in-out;
+}
+.pizza3:hover {
+  transform: scale(1.1);
+}
+.navtthree {
+  font-family: 'pizza1';
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+.bottomb {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bottext {
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+
+.nametitle {
+  font-size: 50px;
+}
+.pizza1 {
+  transform: scale(0.8);
+  
+}
+.pizza2 {
+  transform: scale(0.8);
+}
+.pizza3 {
+  transform: scale(0.8);
+}
+.navigator {
+  justify-content: center;
+}
 }
