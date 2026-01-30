@@ -12,6 +12,7 @@
 .header {
   display: flex;
   font-family: 'pizza1';
+  background: rgb(233, 233, 233);
   justify-content: center;
   border: 10px solid gold;
 }
@@ -77,7 +78,7 @@
 .hero {
   display: flex;
   justify-content: center;
-  background-image: url(images/greytexture.jpg);
+  background: gold;
   background-size: cover;
 }
 
@@ -150,31 +151,68 @@
 }
 
 .bottomb {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  background: rgb(233, 233, 233);
 }
 .bottext {
   font-size: 20px;
 }
 
-@media (max-width: 1000px) {
+.links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.instagram {
+  background-image: url(./images/instaicon.png);
+  background-size: cover;
+  border-radius: 7px;
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  transition: transform 0.2s ease-in-out;
+}
+.instagram:hover {
+  transform: scale(1.1);
+}
+
+.facebook {
+  background-image: url(./images/facebicon.png);
+  background-size: cover;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  transition: transform 0.2s ease-in-out;
+}
+.facebook:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1611px) {
 
 .nametitle {
   font-size: 50px;
 }
 .pizza1 {
-  transform: scale(0.8);
-  
+  width: 400px;
+  height: 300px;
 }
 .pizza2 {
-  transform: scale(0.8);
+  width: 400px;
+  height: 300px;
 }
 .pizza3 {
-  transform: scale(0.8);
+  width: 400px;
+  height: 300px;
 }
 .navigator {
   justify-content: center;
 }
+
 }
