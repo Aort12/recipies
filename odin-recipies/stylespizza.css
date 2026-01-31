@@ -95,6 +95,12 @@ ol {
     
     
 }
+
+.pizzaimg2 {
+  height: 500px;
+  width: 600px;
+  max-width: 100%;
+}
 .description {
     display: flex;
     justify-content: center;
@@ -214,9 +220,39 @@ ol {
 
 @media (max-width: 642px) {
     .pizzaimg2 {
-      width: 400px;
+      width: 330px;
       height: 300px;
+    
     }
 
+    .buttons1 {
+      width: 97px;
+      height: 90px;
+      padding-bottom: 20px;
     
+    }
+
+    .nametitle {
+      font-size: 50px;
+    }
+
+    .logopizza {
+      padding-top: 20px;
+      padding-left: 15px;
+    }
+
+    .desc {
+      font-size: 20px;
+      padding-right: 5px;
+    }
+
+    .ing2 {
+      font-size: 20px;
+      
+    }
+    
+    .steps2 {
+      font-size: 20px;
+      padding-right: 5px;
+    }
 }
