@@ -232,8 +232,21 @@ ol {
     
     }
 
+    .signup {
+      font-size: 19px;
+      height: 30px;
+      width: 80px;
+    }
+
+    .reg {
+      font-size: 19px;
+      height: 30px;
+      width: 80px;
+    }
+
     .nametitle {
-      font-size: 50px;
+      font-size: 45px;
+      align-content: center;
     }
 
     .logopizza {
